@@ -40,7 +40,8 @@ Step 6: Activating WireGuard Service and Verifying Tunnel
 
 Started the WireGuard service (sudo systemctl enable --now wg-quick@wg0) and verified point-to-point tunnel reachability by executing an internal ping test from the Wazuh VM (<VPN_WAZUH_IP>) to the EC2 private VPN IP (<VPN_EC2_IP>). Result: 4 packets transmitted, 0% packet loss.
 
-<img width="686" height="234" alt="Screenshot 2026-10-08 144432" src="https://github.com/user-attachments/assets/8ebc7ecb-60f2-4b53-9de3-40487fd3d84b" />
+<img width="686" height="234" alt="Screenshot 2026-10-08 144432" src="https://github.com/user-attachments/assets/a71e529c-2c63-40f2-8422-f7c8d5abdab7" />
+
 
 Step 7: Simulating Port Scan Reconnaissance from Kali Linux
 
